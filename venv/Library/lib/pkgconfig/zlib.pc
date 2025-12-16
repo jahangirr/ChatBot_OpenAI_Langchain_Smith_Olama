@@ -1,0 +1,13 @@
+prefix=D:/Conda/venv/Library
+exec_prefix=D:/Conda/venv/Library
+libdir=D:/Conda/venv/Library/lib
+sharedlibdir=D:/Conda/venv/Library/lib
+includedir=D:/Conda/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
